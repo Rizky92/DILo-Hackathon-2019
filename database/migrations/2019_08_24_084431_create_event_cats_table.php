@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateServicesTable extends Migration
+class CreateEventCatsTable extends Migration
 {
 
     /**
@@ -13,14 +13,9 @@ class CreateServicesTable extends Migration
      */
     public function up()
     {
-        Schema::create('services', function (Blueprint $table) {
+        Schema::create('event_cats', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name', 100);
-            $table->text('desc');
-            $table->integer('price');
-            $table->integer('isAvailable', true, false);
-            $table->string('contact_tel')->unique();
-            $table->string('contact_email')->unique();
             $table->timestamps();
             $table->softDeletes();
         });
@@ -33,6 +28,6 @@ class CreateServicesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('services');
+        Schema::drop('event_cats');
     }
 }

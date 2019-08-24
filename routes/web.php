@@ -45,3 +45,5 @@ Route::resource('services', 'servicesController');
 Route::resource('employees', 'employeesController');
 
 Route::resource('reports', 'reportsController');
+
+Route::resource('eventCats', 'event_catsController');

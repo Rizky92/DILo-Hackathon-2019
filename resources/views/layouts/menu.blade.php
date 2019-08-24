@@ -35,3 +35,7 @@
     <a href="{!! route('reports.index') !!}"><i class="fa fa-edit"></i><span>Reports</span></a>
 </li>
 
+<li class="{{ Request::is('eventCats*') ? 'active' : '' }}">
+    <a href="{!! route('eventCats.index') !!}"><i class="fa fa-edit"></i><span>Event Cats</span></a>
+</li>
+

@@ -37,3 +37,9 @@ Route::resource('services', 'servicesAPIController');
 Route::resource('reports', 'reportsAPIController');
 
 Route::resource('event_cats', 'event_catsAPIController');
+
+Route::resource('clients_users', 'clients_usersAPIController');
+
+Route::resource('clients_profiles', 'clients_profilesAPIController');
+
+Route::resource('clients_scores', 'clients_scoresAPIController');

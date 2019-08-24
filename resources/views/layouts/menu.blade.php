@@ -39,3 +39,19 @@
     <a href="{!! route('eventCats.index') !!}"><i class="fa fa-edit"></i><span>Event Cats</span></a>
 </li>
 
+<li class="{{ Request::is('clientsUsers*') ? 'active' : '' }}">
+    <a href="{!! route('clientsUsers.index') !!}"><i class="fa fa-edit"></i><span>Clients Users</span></a>
+</li>
+
+<li class="{{ Request::is('clientsProfiles*') ? 'active' : '' }}">
+    <a href="{!! route('clientsProfiles.index') !!}"><i class="fa fa-edit"></i><span>Clients Profiles</span></a>
+</li>
+
+<li class="{{ Request::is('clientsScores*') ? 'active' : '' }}">
+    <a href="{!! route('clientsScores.index') !!}"><i class="fa fa-edit"></i><span>Clients Scores</span></a>
+</li>
+
+<li class="{{ Request::is('clientsBookmarks*') ? 'active' : '' }}">
+    <a href="{!! route('clientsBookmarks.index') !!}"><i class="fa fa-edit"></i><span>Clients Bookmarks</span></a>
+</li>
+

@@ -47,3 +47,11 @@ Route::resource('employees', 'employeesController');
 Route::resource('reports', 'reportsController');
 
 Route::resource('eventCats', 'event_catsController');
+
+Route::resource('clientsUsers', 'clients_usersController');
+
+Route::resource('clientsProfiles', 'clients_profilesController');
+
+Route::resource('clientsScores', 'clients_scoresController');
+
+Route::resource('clientsBookmarks', 'clients_bookmarksController');

@@ -19,3 +19,29 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+
+
+Route::resource('admProfiles', 'adm_profilesController');
+
+
+
+Route::resource('tourismDesCats', 'tourism_des_catsController');
+
+Route::resource('tourismDests', 'tourism_destsController');
+
+Route::resource('prodCats', 'prod_catsController');
+
+Route::resource('products', 'productsController');
+
+
+
+
+
+
+
+Route::resource('services', 'servicesController');
+
+Route::resource('employees', 'employeesController');
+
+Route::resource('reports', 'reportsController');

@@ -55,3 +55,7 @@
     <a href="{!! route('clientsBookmarks.index') !!}"><i class="fa fa-edit"></i><span>Clients Bookmarks</span></a>
 </li>
 
+<li class="{{ Request::is('tourismEvents*') ? 'active' : '' }}">
+    <a href="{!! route('tourismEvents.index') !!}"><i class="fa fa-edit"></i><span>Tourism Events</span></a>
+</li>
+

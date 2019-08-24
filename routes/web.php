@@ -55,3 +55,5 @@ Route::resource('clientsProfiles', 'clients_profilesController');
 Route::resource('clientsScores', 'clients_scoresController');
 
 Route::resource('clientsBookmarks', 'clients_bookmarksController');
+
+Route::resource('tourismEvents', 'tourism_eventsController');

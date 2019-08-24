@@ -1,5 +1,4 @@
-# LaravelSetup-Boilerplate
-Boilerplate setup laravel template dengan beberapa framework udah terinstall.
+# DILo Hackathon Festival 2019 Balikpapan
 
 # Packages:
 - [InfyOm](http://labs.infyom.com/laravelgenerator/) 
